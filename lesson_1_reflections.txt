@@ -1,0 +1,28 @@
+Q. How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+A. It help us to find the changed parts in the Files. Also, it help us to find the bug that's related to the last modification. So we can get the bug faster which is in a logic or typo.
+
+Q. How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+A. We can retreive to any old version of the file easly. Also, we can find the bug easly.
+
+Q. What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+A. I can control when i commit and save my changes. so i can separatethe logical changes in different commits. Also, don't make the changes with small changes, so it will be harder to trace my changes in the history.
+The cons, that i may forget to save r commit my changes so it will be big. or i will missed and save a small changes.
+
+Q. Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+A. beacuse we deal here with files related to each others which mean the change in one file may affect other files so we should save all these changes at one commit because it is the same logic. But in Google Docs, the files have different logic and don't need to reflect the change in one file to another.
+
+Q. How can you use the commands git log and git diff to view the history of files?
+A. Firstly, we use git log, it will list all commits with IDs and its messages
+Then, if we want to know what is the changes in a specific commit, we use git diff and use the ID of the commit which we want to know the changes happened in and the previous commit id.
+
+Q. How might using version control make you more confident to make changes that
+could break something?
+A. If i see any bug or stange action in my project, i can retrieve to previous commit and find the changed code which lead to this problem. Also, i can restore the files before this problem happend
+
+Q. Now that you have your workspace set up, what do you want to try using Git for?
+A. I want try git to upload my projects to be added to my CV. Also, to be a good skill for my while working in company.
