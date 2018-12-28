@@ -1,8 +1,9 @@
 Q. What happens when you initialize a repository? Why do you need to do it?
 A. It starts to create an empty repository which means a historical files for all files in the Directory. to be able to track all changes in your files.
 
-How is the staging area different from the working directory and the repository?
+Q. How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+A. I represent a middle layer between working Directory and Repository so it is a preperation area for the files to be commited.so it splits the changing in working directory into several commits. By Staging area, we can group different changed files and commit them at one commit if they have the same logic and execlude other files.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
