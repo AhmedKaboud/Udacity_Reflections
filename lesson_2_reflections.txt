@@ -1,20 +1,21 @@
 Q. What happens when you initialize a repository? Why do you need to do it?
 A. It starts to create an empty repository which means a historical files for all files in the Directory. to be able to track all changes in your files.
 
-Q. How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
 A. I represent a middle layer between working Directory and Repository so it is a preperation area for the files to be commited.so it splits the changing in working directory into several commits. By Staging area, we can group different changed files and commit them at one commit if they have the same logic and execlude other files.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+Q. How can you use the staging area to make sure you have one commit per logical change?
+A. By grouping the modified files which have the same logic and add them to the staging area before commiting. So they will be added togeather in one commit.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A. whenyou ant to add expreimental change or add new features or new version of the repo while keeping current working. when there are different teamates woking on the same project, so each one will work on different branch and then merge their work.
 
-How do the diagrams help you visualize the branch structure?
+Q. How do the diagrams help you visualize the branch structure?
+A. It help us to find the start of each branch and the features existed in each one. I will tell you about the structure of the project. Also, it shows the sequence of commits; what's reachable; what's not.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A. Only one branch contains the changes from the 2 branches. all the changes which means commits will be interleaved. Also, we only have one head pointing to the new merged branches and this the diagram shows the merged commit has two parents, which correspond to the prior heads of each merged branch.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+Q. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+A. It saves the time for merging when no conflict exist. Also, it makes sure that there isn't conflict exist because it resolve the conflict and ask the user to solve this conflict to make sure about what version to retain.
+It Maybe can make it easier to overlook the potentially dangerous situation where two person are working on the same file at the same time.
