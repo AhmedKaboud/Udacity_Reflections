@@ -1,0 +1,25 @@
+Q. When would you want to use a remote repository rather than keeping all your work local?
+A.I need to use remote repository when i collaborate with  team in one projectand need to share the latest version between us and if i need to work on one project from different computers. Also, when i need to share my code with another one. and using remote repository represents a backup to the local project, so i can get it if my PC blows up.
+
+Q. Why might you want to always pull changes manually rather than having Gitautomatically stay up-to-date with your remote repository?
+A. I may not need these changes from other contributer to be locally because i work on another diferent feature Or may be the local more updated than remote repo.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fill in your answer here
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Fill in your answer here
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Fill in your answer here
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Fill in your answer here
