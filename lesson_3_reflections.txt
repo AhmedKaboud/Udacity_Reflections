@@ -15,6 +15,5 @@ A. we can keep up to date with last version without any effect on our local repo
 Q. How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 A. We can use any shared folder to share our projectand each one work on one part. I there is an overlap at the same time, there will be a bug. But this solution is taugh and we can't track the history of edits of each file in the project. We should discuss the changes by email or another method to be sure that everything go well.
 
-When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
-
-    Fill in your answer here
+Q. When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+A. I will make changes in another branch if i am not sure about what i go on like if i wanna to add an new feature and want to keep the original version stable in its branch so i will make a new branch to do my exprimental changes. If the team is from 1-2 person so you can work on master b but if the number is large, so you need to use different branch to be out of conflicts.
