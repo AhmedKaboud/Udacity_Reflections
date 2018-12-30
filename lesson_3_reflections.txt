@@ -9,13 +9,11 @@ A. Forks -> means to copy the repo in GitHub another repo on GitHub location.
 Clone -> to copy the repo from remote repo on Github to your local repo or to copy the local repo to another place in the local machine.
 brnches -> to make another path of the repo to modify it without modifing the origial version or to work in a team each one work on branch and merge them later.
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
+Q. What is the benefit of having a copy of the last known state of the remote stored locally?
+A. we can keep up to date with last version without any effect on our local repo. then, if you be ready, just you will do merge.
 
-    Fill in your answer here
-
-How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
-
-    Fill in your answer here
+Q. How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+A. We can use any shared folder to share our projectand each one work on one part. I there is an overlap at the same time, there will be a bug. But this solution is taugh and we can't track the history of edits of each file in the project. We should discuss the changes by email or another method to be sure that everything go well.
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
